@@ -170,3 +170,35 @@ footer p {
   font-size: 14px;
 }
 
+* ===== Responsive Layout for Mobile Devices ===== */
+@media (max-width: 768px) {
+  /* Make menu vertical */
+  #menu_bar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu_bar ul li {
+    margin: 10px 0;
+  }
+
+  /* Adjust section padding and font size */
+  section {
+    padding: 15px;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* Optional: Center-align all section headings and paragraphs */
+  section h3, section h4, section h5, section p {
+    text-align: center;
+  }
+}
+
+
+
+
